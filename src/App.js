@@ -1,6 +1,10 @@
+import {ProductsList} from "./components/ProductsList/ProductsList";
+
 const App = () => {
     return (
-        <div>App</div>
+        <div>
+            <ProductsList/>
+        </div>
     );
 };
 
